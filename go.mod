@@ -1,3 +1,3 @@
-module github.com/Av1d1ty/monkey-go
+module monkey-go
 
 go 1.22.0
