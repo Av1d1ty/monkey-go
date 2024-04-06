@@ -17,12 +17,12 @@ type Expression interface {
 }
 
 type Program struct {
-	Statemens []Statement
+	Statements []Statement
 }
 
 func (p *Program) TokenLiteral() string {
-	if len(p.Statemens) > 0 {
-		return p.Statemens[0].TokenLiteral()
+	if len(p.Statements) > 0 {
+		return p.Statements[0].TokenLiteral()
 	} else {
 		return ""
 	}
